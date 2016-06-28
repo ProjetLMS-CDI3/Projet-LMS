@@ -192,6 +192,7 @@ margin-top:-28px;}
     width:952px; /* Change this to your images width */
     height:412px; /* Change this to your images height */
     background:url(../images/loader.gif) no-repeat 50% 50%;
+	margin-bottom: -15px;
 }
 #nivo-slider img {
     position:absolute;
@@ -205,8 +206,28 @@ margin-top:-28px;}
 }
 
 .slider-empty{
-height:60px;}
+height:60px;}	
+
+/*====BREADCRUMBS====*/
+.breadcrumbs{
+	background: #036ba5;
+	color: #ffffff;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin: 0 0 10px 0;
+	padding: 10px;
+}
 	
+.breadcrumbs a{
+	color: #ffffff;
+	background:#0a87b4;
+	padding: 10px;
+}
+	
+.breadcrumbs a:hover{
+	background: #15C1E5;
+	text-decoration: none;
+	
+}
 	
 /*====MAIN ROW====*/
 
@@ -583,7 +604,7 @@ form#contact-form dd{
 #right .moduletable,
 #left .moduletable{
 	padding:15px 15px;
-	margin-bottom: 15px;
+	margin: 15px;
 }
 	
 .menu h3
